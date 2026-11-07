@@ -6,7 +6,10 @@
 <title>Maths Academy — Mathematics, in your own way</title>
 <meta name="description" content="Maths Academy, Mannady, Chennai — founded by Anitha Yuvaraj. Concept-based teaching in Mathematics, Science and English, with career guidance by a Certified Career Counsellor.">
 <meta name="theme-color" content="#FBF6EF">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230D0D0C'/%3E%3Cpath d='M8 22 16 8l8 14M11 18h10' fill='none' stroke='%23E9C22E' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
@@ -18,7 +21,9 @@
 <!-- ============ HEADER ============ -->
 <header class="site-header" id="top">
   <div class="nav-inner">
-    <a class="brand" href="#home" data-link>MATHS ACADEMY</a>
+    <a class="brand" href="#home" data-link aria-label="Maths Academy Home">
+      <img src="assets/images/maths-academy-logo.png" alt="Maths Academy Logo" class="brand-logo" width="58" height="52" loading="eager">
+    </a>
     <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span></span><span></span></button>
     <nav id="site-nav" class="site-nav" aria-label="Primary">
       <ul>
@@ -854,14 +859,9 @@
     <div class="foot-cols">
       <!-- COLUMN 1 — BRAND IDENTITY -->
       <div class="foot-col foot-brand-col">
-        <div class="foot-emblem" aria-hidden="true">
-          <svg viewBox="0 0 44 44" fill="none">
-            <circle class="foot-spin-circle" cx="22" cy="22" r="20" stroke="#E9C22E" stroke-width="1.2" stroke-dasharray="3 4"/>
-            <polygon points="22,6 35,29 9,29" stroke="#FBF6EF" stroke-width="1.4" fill="none" stroke-linejoin="round"/>
-            <circle cx="22" cy="22" r="2.5" fill="#E9C22E"/>
-          </svg>
-        </div>
-        <h3 class="foot-brand-title">MATHS ACADEMY</h3>
+        <a class="foot-brand-link" href="#home" data-link aria-label="Maths Academy Home">
+          <img src="assets/images/maths-academy-logo-white.png" alt="Maths Academy Logo" class="foot-logo" width="130" height="115" loading="lazy">
+        </a>
         <p class="foot-educator">Anitha Yuvaraj<span class="foot-role">Founder and Educator</span></p>
         <blockquote class="foot-quote">
           “We don't just teach subjects; we build understanding, confidence and independent thinkers.”
